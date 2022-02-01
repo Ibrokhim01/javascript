@@ -47,22 +47,42 @@
 // console.log(decr);
 
 //Lesson-12
-const numberOfFilms = +prompt('Сколькл фильмов вы посмотрели?', '');
+// const numberOfFilms = +prompt('Сколькл фильмов вы посмотрели?', '');
 
-const personaMovieDB = {
-    count: numberOfFilms,
+// const personaMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+
+// const a = prompt('Один из последних просмотренных фильмов?', ''),
+//     b = +prompt('На сколько оцените его?', ''),
+//     c = prompt('Один из последних просмотренных фильмов?', ''),
+//     d = +prompt('На сколько оцените его?', '');
+
+// personaMovieDB.movies[a] = b;
+// personaMovieDB.movies[c] = d;
+
+// console.log(personaMovieDB);
+
+const boys = prompt('What is your name?', '');
+
+const girls = {
+    count: boys,
     movies: {},
     actors: {},
     genres: [],
     privat: false
 };
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-      b = +prompt('На сколько оцените его?', ''),
-      c = prompt('Один из последних просмотренных фильмов?', ''),
-      d = +prompt('На сколько оцените его?', '');
+const a = prompt('What is surname?', ''),
+    b = prompt('What is your name?', ''),
+    c = prompt('How old are you?', ''),
+    d = prompt('What is your hobby?', '');
 
-      personaMovieDB.movies[a] = b;
-      personaMovieDB.movies[c] = d;
+    girls.movies[a] = b;
+    girls.movies[c] = d;
 
-      console.log(personaMovieDB);
+console.log(girls);
